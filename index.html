@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catvisor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Catvisor</h1>
+    <p class="tagline">Capire, curare, trovare aiuto. Tutto in un unico posto.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Problema che vogliamo risolvere</h2>
+      <ul>
+        <li>Difficoltà nel riconoscere sintomi vaghi o sovrapposti nei gatti.</li>
+        <li>Mancanza di strumenti digitali affidabili per un triage preliminare.</li>
+        <li>Informazioni online frammentate, poco verificate e non localizzate per l’Italia.</li>
+        <li>Assenza di una piattaforma unica che unisca sintomi, home-care e cliniche veterinarie.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>A chi si rivolge</h2>
+      <ul>
+        <li>Proprietari di gatti in Italia (oltre 10 milioni).</li>
+        <li>Nuovi proprietari senza un veterinario di fiducia.</li>
+        <li>Famiglie che cercano risposte rapide e affidabili.</li>
+        <li>Associazioni, gattili e volontari per un primo triage.</li>
+        <li>Cliniche veterinarie interessate a visibilità e prenotazioni.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Confronto con le alternative</h2>
+      <ul>
+        <li><strong>Purina / Royal Canin</strong>: contenuti informativi, senza triage interattivo.</li>
+        <li><strong>SantéVet / DoctorVet</strong>: non focalizzati sui gatti o sulla ricerca per sintomi.</li>
+        <li><strong>Google / Wikipedia</strong>: contenuti generici e non localizzati.</li>
+        <li><strong>App locali</strong>: prenotazioni, ma senza analisi sintomi o home-care.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tecnologie</h2>
+      <p>HTML, CSS, JavaScript</p>
+    </section>
+
+    <section>
+      <h2>Mini triage (informativo)</h2>
+      <p>Seleziona i sintomi osservati per ricevere un orientamento preliminare.</p>
+      <form id="triage-form">
+        <label><input type="checkbox" name="symptom" value="emergency" /> Difficoltà respiratorie</label>
+        <label><input type="checkbox" name="symptom" value="emergency" /> Convulsioni</label>
+        <label><input type="checkbox" name="symptom" value="urgent" /> Vomito ripetuto</label>
+        <label><input type="checkbox" name="symptom" value="urgent" /> Inappetenza da oltre 24h</label>
+        <label><input type="checkbox" name="symptom" value="mild" /> Starnuti occasionali</label>
+        <label><input type="checkbox" name="symptom" value="mild" /> Lieve apatia</label>
+        <button type="submit">Valuta</button>
+      </form>
+      <p id="triage-result" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Mission</h2>
+      <p>
+        Facilitare la ricerca di cure e la soluzione ai problemi dei propri gatti, riunendo in un unico sito
+        informazioni chiare, sicure e verificate per migliorare il benessere degli animali e ridurre l’ansia dei proprietari.
+      </p>
+    </section>
+
+    <section>
+      <h2>Vision</h2>
+      <p>
+        Diventare la piattaforma di riferimento in Italia (e poi in Europa) per la salute digitale dei gatti,
+        integrando tecnologia, veterinaria e servizi territoriali in un ecosistema completo di prevenzione, supporto e cura.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Catvisor supporta, ma non sostituisce il parere veterinario professionale.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

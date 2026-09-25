@@ -1,0 +1,59 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #1d2230;
+}
+
+header,
+footer {
+  background: #1f4f8f;
+  color: #fff;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 1.1rem;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+button {
+  width: fit-content;
+  background: #1f4f8f;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+#triage-result {
+  font-weight: 700;
+}
